@@ -1,5 +1,4 @@
 # LLaVA-NeXT Video Inference (LLaVA-Video-72B-Qwen2)
-* (lmms-lab/LLaVA-Video-72B-Qwen2)
 
 ---
 
