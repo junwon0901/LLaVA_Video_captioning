@@ -25,5 +25,5 @@ pip install -e ".[train]"
 
 ## 2. Captioning 실행
 ```bash
-python video_caption.py
+python llava_captioning.py
 ```
