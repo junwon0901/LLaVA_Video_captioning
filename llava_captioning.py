@@ -36,7 +36,7 @@ def load_video(video_path, max_frames_num, fps=1, force_sample=False):
     return frames, frame_time, video_time
 
 
-pretrained = "lmms-lab/LLaVA-Video-72B-Qwen2"
+pretrained = "lmms-lab/LLaVA-Video-7B-Qwen2"
 model_name = "llava_qwen"
 device = "cuda"
 device_map = "auto"
@@ -58,7 +58,7 @@ levels = ["L1", "L2", "L3", "L4", "L5"]
 durations = ["short", "medium", "long"]
 
 # Output file for captions
-output_file = "captions_llava_video_72B_qwen2.jsonl"
+output_file = "captions_llava_video_7B_qwen2.jsonl"
 
 # Load already processed videos
 processed_videos = set()
