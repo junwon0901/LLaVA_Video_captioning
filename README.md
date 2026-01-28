@@ -22,3 +22,10 @@
   ```bash
   python llava_captioning.py
   ```
+## 3. Output
+- Outputs are saved as a JSONL file (1 line = 1 video).
+- It reads the existing output and skips already-processed video_name entries to resume (resume).
+
+## Notes
+- llava_captioning.py assumes the following structure:
+  - /home/dataset/video_eval/L{1..5}/{short,medium,long}/*.mp4
